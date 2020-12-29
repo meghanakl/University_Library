@@ -42,7 +42,19 @@ public class Barrower {
 	
 
 	public  Barrower(String Title ,String First_Name ,String Last_Name  ,String  AddressLine1,String AddressLine2,String city,String StateName ,String Country ,int PostCode,int Mobile_Number_CountryCode ,long Mobile_Number ,String Email_id ,String Barrower_type){
-			
+		this.Title = Title;
+		this.First_Name = First_Name;
+		this.Last_Name =Last_Name  ;
+		this.AddressLine1 =AddressLine1;
+		this.AddressLine2 = AddressLine2;
+		this.city = city;
+		this.StateName =StateName  ;
+		this.Country = Country ;
+		this.PostCode =PostCode ;
+		this.Mobile_Number_CountryCode =Mobile_Number_CountryCode  ;
+		this.Mobile_Number = Mobile_Number;
+		this.Email_id =Email_id ;
+		this.Barrower_type = Barrower_type;
 			
 		}
 
