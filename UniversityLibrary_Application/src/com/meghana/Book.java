@@ -26,6 +26,7 @@ public class Book {
 //}
 
 public void AddBook() {
+
 	 String connectionUrl 
       "jdbc:sqlserver://LAPTOP-CIKUG36M//SQLEXPRESS;database=University_DB;integratedSecurity=true";
       String SPsql = "EXEC spInsertBook ?,?,?,?,?,?";   

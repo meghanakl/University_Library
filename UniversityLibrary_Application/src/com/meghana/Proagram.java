@@ -63,7 +63,7 @@ public class Proagram {
 
 		System.out.println("Enter a barrowertype");
 		Scanner s14 = new Scanner(System.in);
-		String Barrower_type =  s.nextLine();  
+		String Barrower_type = s.nextLine();  
 
 		Barrower b = new Barrower(Title, First_Name, Last_Name, AddressLine1, AddressLine2, city, StateName, Country,
 				PostCode, Mobile_Number_CountryCode, Mobile_Number, Email_id, Barrower_type);

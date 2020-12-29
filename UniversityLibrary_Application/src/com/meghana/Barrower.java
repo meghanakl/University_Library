@@ -21,7 +21,7 @@ public class Barrower {
 	int Mobile_Number_CountryCode;     
 	long Mobile_Number;
 	String Email_id;
-	String Barrower_type;
+	String Barrower_type ;
 
 	public Barrower() { // ctrl+/ for comment
 		this.Title = "Rao";
